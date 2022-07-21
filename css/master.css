@@ -14,6 +14,7 @@ h3{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
 }
 h4{
+    color:orange;
     font-family:'Lucida Sans', 'Lucida Sans Unicode', Arial, sans-serif;
 }
 a {
@@ -21,7 +22,7 @@ a {
 }
 a:link{color: orangered}
 a:visited{color: green}
-a:hover{color:yellow; text-decoration:underline}
+a:hover{color:gold; text-decoration:underline}
 a:active{color:orange}
 p {
     color: rgb(224, 224, 224);
@@ -44,3 +45,28 @@ label{color: rgb(224, 224, 224);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 hr{color: rgb(224, 224, 224)}
+input[type=text]{
+    width:35%;
+    height: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    font-size: 1.0em;
+    background-color: rgb(208, 208, 208);
+}
+input[type=email]{
+    width: 50%;
+    height: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    font-size: 1.0em;
+    background-color: rgb(208, 208, 208);
+}
+input[type=submit]{
+    width: 12%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    font-size: 1.1em;
+    background-color: rgb(208, 208, 208);
+}
+textarea{
+    background-color: rgb(208, 208, 208);
+    font-size: 1.0em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+}
